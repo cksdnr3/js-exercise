@@ -1,0 +1,25 @@
+<html>
+
+    <head>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        <h1>노찬욱 시간표</h1>
+
+        <script>
+
+            var dayOfWeek = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun']
+            var i = 0
+            while (i < 7) {
+                document.write("<button id=button"+i>" "+" <div id=dow">'+dayOfWeek[i]"+"</div>"+"</button>")
+                i++
+            }
+        </script>
+        
+        <div id="subject"></div>
+
+        <script src="./index.js"></script>
+    </body>
+
+</html>
